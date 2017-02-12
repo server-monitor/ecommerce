@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: your_website_production
-  username: your_website
-  password: <%= ENV['YOUR_WEBSITE_DATABASE_PASSWORD'] %>
+  # username: your_website
+  # password: <%= ENV['YOUR_WEBSITE_DATABASE_PASSWORD'] %>
